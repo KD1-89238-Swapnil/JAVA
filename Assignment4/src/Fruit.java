@@ -1,6 +1,6 @@
 
 
-// Abstract base class Fruit
+
 abstract class Fruit {
     private String name;
     private String color;
@@ -36,7 +36,7 @@ abstract class Fruit {
 	protected abstract boolean isFresh();
 }
 
-// Subclasses
+
 class Apple extends Fruit {
     public Apple(String name, double weight, String color) {
         super(name, color, weight);
@@ -66,7 +66,7 @@ class Mango extends Fruit {
 
 	@Override
 	protected boolean isFresh() {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 }
@@ -83,9 +83,9 @@ class Orange extends Fruit {
 
 	@Override
 	protected boolean isFresh() {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 }
 
-// FruitBasket class to test functionality
+
