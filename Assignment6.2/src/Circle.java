@@ -5,14 +5,14 @@ class NegativeDiameterException extends Exception {
     }
 }
 
-// Define the Circle class
+
 public class Circle {
-    // Attributes
+   
     private double myX;
     private double myY;
     private double myDiameter;
 
-    // Default constructor initializing center to (0, 0) and diameter to 100
+   
     public Circle() {
         this.myX = 0;
         this.myY = 0;
@@ -39,7 +39,7 @@ public class Circle {
         return myDiameter;
     }
 
-    // Mutator methods (setters)
+ 
     public void setX(double x) {
         this.myX = x;
     }
